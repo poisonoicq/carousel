@@ -1,0 +1,77 @@
+.carousel-container{
+    width: 520px;
+    height: 280px;
+    position: relative;
+}
+.carousel-imgs img{
+    position: absolute;
+    display: none;
+}
+.carousel-imgs img.selected{
+    display: block;
+}
+.carousel-nav{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+.carousel-nav li ,.carousel-arrows div{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    color: #ffffff;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.carousel-nav li.selected{
+    background: orange;
+}
+.carousel-arrows div{
+    position: absolute;
+    cursor: pointer;
+}
+.carousel-arrows .carousel-left.bottom{
+    left: 10px;
+    bottom: 10px;
+}
+.carousel-arrows .carousel-right.bottom{
+    left: 35px;
+    bottom: 10px;
+}
+.carousel-arrows .carousel-left.center{
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+}
+.carousel-arrows .carousel-right.center{
+    top: 50%;
+    right: 0;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
